@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "less": "lessc ./src/styles/styles.less ./build/styles/styles.css",
+    "less": "less-watch-compiler ./src/styles ./build/styles",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
